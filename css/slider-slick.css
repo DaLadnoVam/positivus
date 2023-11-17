@@ -1,0 +1,58 @@
+.slick-cloned,
+.slick-slide,
+.slick-active{
+    width: 60rem;
+    height: 33.5rem;
+}
+
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.4rem;
+}
+
+.slick-dots li,
+.slick-dots .slick-active{
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background: url(../images/dot-white.svg);
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.slick-dots button{
+    display: none;
+}
+
+.slick-dots .slick-active{
+    background: url(../images/dot-green.svg);
+}
+
+.slick-arrow{
+    border: none;
+    width: 2.4rem;
+    height: 1.4rem;
+    color: transparent;
+    cursor: pointer;
+}
+
+.slick-next{
+    position: absolute;
+    bottom: 0;
+    right: 40rem;
+    background: url(../images/arrow.svg);
+    background-size: 2.4rem 1.5rem;
+    background-repeat: no-repeat;
+}
+
+.slick-prev{
+    position: absolute;
+    bottom: 0;
+    left: 40rem;
+    background: url(../images/arrow.svg);
+    background-size: 2.4rem 1.5rem;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
